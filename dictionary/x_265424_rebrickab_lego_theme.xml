@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Lego Theme" max_length="40" name="x_265424_rebrickab_lego_theme" type="collection">
+        <element display="true" label="Name" max_length="40" name="name" type="string"/>
+        <element label="Parent theme" max_length="32" name="parent_theme" reference="x_265424_rebrickab_lego_theme" type="reference"/>
+        <element label="Theme ID" max_length="40" name="theme_id" type="integer"/>
+        <index name="index">
+            <element name="parent_theme"/>
+        </index>
+    </element>
+</database>

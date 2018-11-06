@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="alm_asset" label="Lego Part" max_length="40" name="x_265424_rebrickab_alm_lego_part" type="collection"/>
+</database>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Lego Part Category" max_length="40" name="x_265424_rebrickab_lego_part_category" type="collection">
+        <element label="Category ID" max_length="40" name="category_id" type="integer"/>
+        <element display="true" label="Name" max_length="40" name="name" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="cmdb_model" label="Lego Set Model" max_length="40" name="x_265424_rebrickab_lego_set_model" type="collection"/>
+</database>

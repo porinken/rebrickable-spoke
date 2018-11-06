@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="Lego Set" language="en" table="x_265424_rebrickab_alm_lego_set">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>Lego Set</label>
+            <language>en</language>
+            <name>x_265424_rebrickab_alm_lego_set</name>
+            <plural>Lego Sets</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-11-06 03:11:50</sys_created_on>
+            <sys_id>a96840e24fa52300d7e4a7d18110c715</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Lego Set</sys_name>
+            <sys_package display_value="Rebrickable Spoke" source="x_265424_rebrickab">084856d64f612300d7e4a7d18110c742</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Rebrickable Spoke">084856d64f612300d7e4a7d18110c742</sys_scope>
+            <sys_update_name>sys_documentation_x_265424_rebrickab_alm_lego_set__en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-11-06 03:11:50</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

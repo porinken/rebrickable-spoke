@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <annotation/>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Populate Lego Theme, Lego Color, and Lego Part Category tables with foundation data.</description>
+        <internal_name>get_foundation_lego_date</internal_name>
+        <label_cache>[{"name":"82cce06d-24c7-49fd-80d0-df6e8463f4db.list_of_new_category_sys_ids","label":"3➛List of new category Sys IDs","reference_display":"List of new category Sys IDs","type":"string","base_type":"string"},{"name":"82cce06d-24c7-49fd-80d0-df6e8463f4db.number_of_colors","label":"3➛Number of categories","reference_display":"Number of categories","type":"string","base_type":"string"},{"name":"adba50d7-2ce3-479a-ba7b-f4a10ae4159a.number_of_colors","label":"2➛Number of colors","reference_display":"Number of colors","type":"integer","base_type":"integer"},{"name":"28cee73c-b118-46b6-8789-082c83e9aabb.number_of_themes","label":"1➛Number of themes","reference_display":"Number of themes","type":"integer","base_type":"integer"}]</label_cache>
+        <latest_snapshot>17edb6aa4f2d2300d7e4a7d18110c7df</latest_snapshot>
+        <master_snapshot>17edb6aa4f2d2300d7e4a7d18110c7df</master_snapshot>
+        <name>Get Foundation Lego Data</name>
+        <outputs/>
+        <remote_trigger_id/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-06 15:58:17</sys_created_on>
+        <sys_id>09d736664f2d2300d7e4a7d18110c734</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Get Foundation Lego Data</sys_name>
+        <sys_package display_value="Rebrickable Spoke" source="x_265424_rebrickab">084856d64f612300d7e4a7d18110c742</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Rebrickable Spoke">084856d64f612300d7e4a7d18110c742</sys_scope>
+        <sys_update_name>sys_hub_flow_09d736664f2d2300d7e4a7d18110c734</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-06 16:25:58</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=09d736664f2d2300d7e4a7d18110c734"/>
+    <sys_variable_value action="delete_multiple" query="document_key=09d736664f2d2300d7e4a7d18110c734"/>
+</record_update>

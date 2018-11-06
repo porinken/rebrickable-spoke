@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="parent_theme" label="Parent theme" language="en" table="x_265424_rebrickab_lego_theme">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>parent_theme</element>
+            <help/>
+            <hint/>
+            <label>Parent theme</label>
+            <language>en</language>
+            <name>x_265424_rebrickab_lego_theme</name>
+            <plural>Parent themes</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-11-06 02:48:21</sys_created_on>
+            <sys_id>e503c8ee4f652300d7e4a7d18110c775</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Parent theme</sys_name>
+            <sys_package display_value="Rebrickable Spoke" source="x_265424_rebrickab">084856d64f612300d7e4a7d18110c742</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Rebrickable Spoke">084856d64f612300d7e4a7d18110c742</sys_scope>
+            <sys_update_name>sys_documentation_x_265424_rebrickab_lego_theme_parent_theme_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-11-06 02:48:21</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

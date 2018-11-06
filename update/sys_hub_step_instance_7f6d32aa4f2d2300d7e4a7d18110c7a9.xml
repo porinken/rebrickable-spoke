@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_step_instance">
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Set Details">376d32aa4f2d2300d7e4a7d18110c795</action>
+        <cid>49094c7b-2680-441e-8757-862c97552d64</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>REST step</label>
+        <order>1</order>
+        <outputs/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-06 16:22:47</sys_created_on>
+        <sys_id>7f6d32aa4f2d2300d7e4a7d18110c7a9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>REST step</sys_name>
+        <sys_package display_value="Rebrickable Spoke" source="x_265424_rebrickab">084856d64f612300d7e4a7d18110c742</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Rebrickable Spoke">084856d64f612300d7e4a7d18110c742</sys_scope>
+        <sys_update_name>sys_hub_step_instance_7f6d32aa4f2d2300d7e4a7d18110c7a9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-06 16:22:48</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=7f6d32aa4f2d2300d7e4a7d18110c7a9"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>7f6d32aa4f2d2300d7e4a7d18110c7a9</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-06 16:22:48</sys_created_on>
+        <sys_id>3b6d32aa4f2d2300d7e4a7d18110c7b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-06 16:22:48</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>7f6d32aa4f2d2300d7e4a7d18110c7a9</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-06 16:22:48</sys_created_on>
+        <sys_id>bf6d32aa4f2d2300d7e4a7d18110c7b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-06 16:22:48</sys_updated_on>
+        <value>483b56d64fa12300d7e4a7d18110c7c8</value>
+        <variable display_value="">262882f03b23320057a4a2e334efc4f0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>7f6d32aa4f2d2300d7e4a7d18110c7a9</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-06 16:22:48</sys_created_on>
+        <sys_id>fb6d32aa4f2d2300d7e4a7d18110c7b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-06 16:22:48</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=7f6d32aa4f2d2300d7e4a7d18110c7a9"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>7f6d32aa4f2d2300d7e4a7d18110c7a9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-06 16:22:48</sys_created_on>
+        <sys_id>336d32aa4f2d2300d7e4a7d18110c7b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-06 16:22:48</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capabilities</field>
+        <id>7f6d32aa4f2d2300d7e4a7d18110c7a9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-06 16:22:48</sys_created_on>
+        <sys_id>7f6d32aa4f2d2300d7e4a7d18110c7b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-06 16:22:48</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection_alias</field>
+        <id>7f6d32aa4f2d2300d7e4a7d18110c7a9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-06 16:22:48</sys_created_on>
+        <sys_id>f36d32aa4f2d2300d7e4a7d18110c7b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-06 16:22:48</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>resource_path</field>
+        <id>7f6d32aa4f2d2300d7e4a7d18110c7a9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-06 16:22:48</sys_created_on>
+        <sys_id>b76d32aa4f2d2300d7e4a7d18110c7b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-06 16:22:48</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>lego/sets/{{action.set_number}}{{action.set_variant}}</value>
+    </sys_element_mapping>
+</record_update>

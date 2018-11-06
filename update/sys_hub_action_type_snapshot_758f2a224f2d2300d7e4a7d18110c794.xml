@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_snapshot">
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <annotation/>
+        <category display_value="Lego Parts">11a00bda4fe12300d7e4a7d18110c752</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Get a list of all Lego element colors and add them to the Lego Color table.</description>
+        <internal_name>color_list</internal_name>
+        <label_cache>[{"name":"{{action.page_number}}","label":"action➛Page number","type":"action","ref":""},{"name":"{{action.page_size}}","label":"action➛Page size","type":"action","ref":""},{"name":"{{step[05fbc1a9-3f38-4a4a-bdb6-1f51ec889f56].n}}","label":"step➛Script step➛n","type":"step","ref":""},{"name":"{{step[05fbc1a9-3f38-4a4a-bdb6-1f51ec889f56].ne}}","label":"step➛Script step➛ne","type":"step","ref":""},{"name":"{{step[05fbc1a9-3f38-4a4a-bdb6-1f51ec889f56].new}}","label":"step➛Script step➛new","type":"step","ref":""},{"name":"{{step[05fbc1a9-3f38-4a4a-bdb6-1f51ec889f56].newC}}","label":"step➛Script step➛newC","type":"step","ref":""},{"name":"{{step[05fbc1a9-3f38-4a4a-bdb6-1f51ec889f56].newCo}}","label":"step➛Script step➛newCo","type":"step","ref":""},{"name":"{{step[05fbc1a9-3f38-4a4a-bdb6-1f51ec889f56].newCol}}","label":"step➛Script step➛newCol","type":"step","ref":""},{"name":"{{step[05fbc1a9-3f38-4a4a-bdb6-1f51ec889f56].newColo}}","label":"step➛Script step➛newColo","type":"step","ref":""},{"name":"{{step[05fbc1a9-3f38-4a4a-bdb6-1f51ec889f56].newColor}}","label":"step➛Script step➛newColor","type":"step","ref":""},{"name":"{{step[05fbc1a9-3f38-4a4a-bdb6-1f51ec889f56].newColors}}","label":"step➛Script step➛newColors","type":"step","ref":""},{"name":"{{step[d0bf7576-6203-4020-904e-32de68b95301].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""},{"name":"{{step[d0bf7576-6203-4020-904e-32de68b95301].error_code}}","label":"step➛REST step➛Error Code","type":"step","ref":""},{"name":"{{step[d0bf7576-6203-4020-904e-32de68b95301].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":""},{"name":"{{step[d0bf7576-6203-4020-904e-32de68b95301].error_message}}","label":"step➛REST step➛Error Message","type":"step","ref":""},{"name":"{{step[05fbc1a9-3f38-4a4a-bdb6-1f51ec889f56].c}}","label":"step➛Script step➛c","type":"step","ref":""},{"name":"{{step[05fbc1a9-3f38-4a4a-bdb6-1f51ec889f56].co}}","label":"step➛Script step➛co","type":"step","ref":""},{"name":"{{step[05fbc1a9-3f38-4a4a-bdb6-1f51ec889f56].col}}","label":"step➛Script step➛col","type":"step","ref":""},{"name":"{{step[05fbc1a9-3f38-4a4a-bdb6-1f51ec889f56].colo}}","label":"step➛Script step➛colo","type":"step","ref":""},{"name":"{{step[05fbc1a9-3f38-4a4a-bdb6-1f51ec889f56].color}}","label":"step➛Script step➛color","type":"step","ref":""},{"name":"{{step[05fbc1a9-3f38-4a4a-bdb6-1f51ec889f56].colorC}}","label":"step➛Script step➛colorC","type":"step","ref":""},{"name":"{{step[05fbc1a9-3f38-4a4a-bdb6-1f51ec889f56].colorCo}}","label":"step➛Script step➛colorCo","type":"step","ref":""},{"name":"{{step[05fbc1a9-3f38-4a4a-bdb6-1f51ec889f56].colorCou}}","label":"step➛Script step➛colorCou","type":"step","ref":""},{"name":"{{step[05fbc1a9-3f38-4a4a-bdb6-1f51ec889f56].colorCoun}}","label":"step➛Script step➛colorCoun","type":"step","ref":""},{"name":"{{step[05fbc1a9-3f38-4a4a-bdb6-1f51ec889f56].colorCount}}","label":"step➛Script step➛colorCount","type":"step","ref":""}]</label_cache>
+        <master>true</master>
+        <name>Color List</name>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="Color List">a4bf80e64fa52300d7e4a7d18110c726</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-06 15:22:02</sys_created_on>
+        <sys_id>758f2a224f2d2300d7e4a7d18110c794</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Color List</sys_name>
+        <sys_package display_value="Rebrickable Spoke" source="x_265424_rebrickab">084856d64f612300d7e4a7d18110c742</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Rebrickable Spoke">084856d64f612300d7e4a7d18110c742</sys_scope>
+        <sys_update_name>sys_hub_action_type_snapshot_758f2a224f2d2300d7e4a7d18110c794</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-06 16:09:29</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=758f2a224f2d2300d7e4a7d18110c794"/>
+    <sys_variable_value action="delete_multiple" query="document_key=758f2a224f2d2300d7e4a7d18110c794"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>758f2a224f2d2300d7e4a7d18110c794</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-06 15:26:03</sys_created_on>
+        <sys_id>7c7036624f2d2300d7e4a7d18110c7b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-06 15:26:03</sys_updated_on>
+        <value/>
+        <variable display_value="">b87036624f2d2300d7e4a7d18110c7ab</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=758f2a224f2d2300d7e4a7d18110c794"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>list_of_new_color_sys_ids</field>
+        <id>758f2a224f2d2300d7e4a7d18110c794</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-06 16:09:29</sys_created_on>
+        <sys_id>096a362a4f2d2300d7e4a7d18110c719</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-06 16:09:29</sys_updated_on>
+        <table>var__m_sys_hub_action_output_758f2a224f2d2300d7e4a7d18110c794</table>
+        <value>{{step[05fbc1a9-3f38-4a4a-bdb6-1f51ec889f56].newColors}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>number_of_colors</field>
+        <id>758f2a224f2d2300d7e4a7d18110c794</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-06 15:26:03</sys_created_on>
+        <sys_id>f87036624f2d2300d7e4a7d18110c7b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-06 15:26:03</sys_updated_on>
+        <table>var__m_sys_hub_action_output_758f2a224f2d2300d7e4a7d18110c794</table>
+        <value>{{step[05fbc1a9-3f38-4a4a-bdb6-1f51ec889f56].colorCount}}</value>
+    </sys_element_mapping>
+</record_update>

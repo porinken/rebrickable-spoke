@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Category List">6127be664f2d2300d7e4a7d18110c728</action_type>
+        <action_type_parent display_value="Category List">f3a0f6624f2d2300d7e4a7d18110c753</action_type_parent>
+        <comment/>
+        <compiled_snapshot display_value="Category List">6127be664f2d2300d7e4a7d18110c728</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Get Foundation Lego Date">17edb6aa4f2d2300d7e4a7d18110c7df</flow>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-06 16:24:57</sys_created_on>
+        <sys_id>e3edb6aa4f2d2300d7e4a7d18110c7f7</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Rebrickable Spoke" source="x_265424_rebrickab">084856d64f612300d7e4a7d18110c742</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Rebrickable Spoke">084856d64f612300d7e4a7d18110c742</sys_scope>
+        <sys_update_name>sys_hub_action_instance_e3edb6aa4f2d2300d7e4a7d18110c7f7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-06 16:24:57</sys_updated_on>
+        <ui_id>82cce06d-24c7-49fd-80d0-df6e8463f4db</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e3edb6aa4f2d2300d7e4a7d18110c7f7"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e3edb6aa4f2d2300d7e4a7d18110c7f7</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-06 16:24:57</sys_created_on>
+        <sys_id>23edb6aa4f2d2300d7e4a7d18110c7fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-06 16:24:57</sys_updated_on>
+        <value>1000</value>
+        <variable display_value="">3127be664f2d2300d7e4a7d18110c742</variable>
+    </sys_variable_value>
+</record_update>

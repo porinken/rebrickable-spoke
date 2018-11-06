@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="list_of_new_theme_sys_ids" label="List of new theme Sys IDs" language="en" table="var__m_sys_hub_action_output_af7fe6224f2d2300d7e4a7d18110c743">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>list_of_new_theme_sys_ids</element>
+            <help/>
+            <hint/>
+            <label>List of new theme Sys IDs</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_output_af7fe6224f2d2300d7e4a7d18110c743</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-11-06 16:05:46</sys_created_on>
+            <sys_id>da897ae64f2d2300d7e4a7d18110c78c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>List of new theme Sys IDs</sys_name>
+            <sys_package display_value="Rebrickable Spoke" source="x_265424_rebrickab">084856d64f612300d7e4a7d18110c742</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Rebrickable Spoke">084856d64f612300d7e4a7d18110c742</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_action_output_af7fe6224f2d2300d7e4a7d18110c743_list_of_new_theme_sys_ids_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-11-06 16:05:46</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

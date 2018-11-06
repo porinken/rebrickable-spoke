@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_snapshot">
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <annotation/>
+        <category display_value="Lego Sets">02d087d24fe12300d7e4a7d18110c7c7</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Get a list of all Lego set themes and add them to the Lego Theme table.</description>
+        <internal_name>theme_list</internal_name>
+        <label_cache>[{"name":"{{action.page_number}}","label":"action➛Page number","type":"action","ref":""},{"name":"{{action.page_size}}","label":"action➛Page size","type":"action","ref":""},{"name":"{{step[d0bf7576-6203-4020-904e-32de68b95301].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""},{"name":"{{step[d0bf7576-6203-4020-904e-32de68b95301].error_code}}","label":"step➛REST step➛Error Code","type":"step","ref":""},{"name":"{{step[d0bf7576-6203-4020-904e-32de68b95301].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":""},{"name":"{{step[d0bf7576-6203-4020-904e-32de68b95301].error_message}}","label":"step➛REST step➛Error Message","type":"step","ref":""},{"name":"{{step[05fbc1a9-3f38-4a4a-bdb6-1f51ec889f56].t}}","label":"step➛Script step➛t","type":"step","ref":""},{"name":"{{step[05fbc1a9-3f38-4a4a-bdb6-1f51ec889f56].th}}","label":"step➛Script step➛th","type":"step","ref":""},{"name":"{{step[05fbc1a9-3f38-4a4a-bdb6-1f51ec889f56].the}}","label":"step➛Script step➛the","type":"step","ref":""},{"name":"{{step[05fbc1a9-3f38-4a4a-bdb6-1f51ec889f56].them}}","label":"step➛Script step➛them","type":"step","ref":""},{"name":"{{step[05fbc1a9-3f38-4a4a-bdb6-1f51ec889f56].theme}}","label":"step➛Script step➛theme","type":"step","ref":""},{"name":"{{step[05fbc1a9-3f38-4a4a-bdb6-1f51ec889f56].themeC}}","label":"step➛Script step➛themeC","type":"step","ref":""},{"name":"{{step[05fbc1a9-3f38-4a4a-bdb6-1f51ec889f56].themeCo}}","label":"step➛Script step➛themeCo","type":"step","ref":""},{"name":"{{step[05fbc1a9-3f38-4a4a-bdb6-1f51ec889f56].themeCou}}","label":"step➛Script step➛themeCou","type":"step","ref":""},{"name":"{{step[05fbc1a9-3f38-4a4a-bdb6-1f51ec889f56].themeCoun}}","label":"step➛Script step➛themeCoun","type":"step","ref":""},{"name":"{{step[05fbc1a9-3f38-4a4a-bdb6-1f51ec889f56].themeCount}}","label":"step➛Script step➛themeCount","type":"step","ref":""},{"name":"{{step[05fbc1a9-3f38-4a4a-bdb6-1f51ec889f56].newT}}","label":"step➛Script step➛newT","type":"step","ref":""},{"name":"{{step[05fbc1a9-3f38-4a4a-bdb6-1f51ec889f56].newTh}}","label":"step➛Script step➛newTh","type":"step","ref":""},{"name":"{{step[05fbc1a9-3f38-4a4a-bdb6-1f51ec889f56].newThe}}","label":"step➛Script step➛newThe","type":"step","ref":""},{"name":"{{step[05fbc1a9-3f38-4a4a-bdb6-1f51ec889f56].newThem}}","label":"step➛Script step➛newThem","type":"step","ref":""},{"name":"{{step[05fbc1a9-3f38-4a4a-bdb6-1f51ec889f56].newTheme}}","label":"step➛Script step➛newTheme","type":"step","ref":""},{"name":"{{step[05fbc1a9-3f38-4a4a-bdb6-1f51ec889f56].newThemes}}","label":"step➛Script step➛newThemes","type":"step","ref":""}]</label_cache>
+        <master>true</master>
+        <name>Theme List</name>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="Theme List">7e0694ea4fa52300d7e4a7d18110c7d0</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-06 15:21:53</sys_created_on>
+        <sys_id>af7fe6224f2d2300d7e4a7d18110c743</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Theme List</sys_name>
+        <sys_package display_value="Rebrickable Spoke" source="x_265424_rebrickab">084856d64f612300d7e4a7d18110c742</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Rebrickable Spoke">084856d64f612300d7e4a7d18110c742</sys_scope>
+        <sys_update_name>sys_hub_action_type_snapshot_af7fe6224f2d2300d7e4a7d18110c743</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-06 16:05:46</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=af7fe6224f2d2300d7e4a7d18110c743"/>
+    <sys_variable_value action="delete_multiple" query="document_key=af7fe6224f2d2300d7e4a7d18110c743"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>af7fe6224f2d2300d7e4a7d18110c743</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-06 15:21:55</sys_created_on>
+        <sys_id>8c8fe6224f2d2300d7e4a7d18110c7ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-06 15:21:55</sys_updated_on>
+        <value/>
+        <variable display_value="">048fe6224f2d2300d7e4a7d18110c7ba</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=af7fe6224f2d2300d7e4a7d18110c743"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>list_of_new_theme_sys_ids</field>
+        <id>af7fe6224f2d2300d7e4a7d18110c743</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-06 16:05:46</sys_created_on>
+        <sys_id>d2897ae64f2d2300d7e4a7d18110c790</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-06 16:05:46</sys_updated_on>
+        <table>var__m_sys_hub_action_output_af7fe6224f2d2300d7e4a7d18110c743</table>
+        <value>{{step[05fbc1a9-3f38-4a4a-bdb6-1f51ec889f56].newThemes}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>number_of_themes</field>
+        <id>af7fe6224f2d2300d7e4a7d18110c743</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-06 15:21:55</sys_created_on>
+        <sys_id>0c8fe6224f2d2300d7e4a7d18110c7ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-06 15:21:55</sys_updated_on>
+        <table>var__m_sys_hub_action_output_af7fe6224f2d2300d7e4a7d18110c743</table>
+        <value>{{step[05fbc1a9-3f38-4a4a-bdb6-1f51ec889f56].themeCount}}</value>
+    </sys_element_mapping>
+</record_update>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Lego Color" max_length="40" name="x_265424_rebrickab_lego_color" type="collection">
+        <element label="Color ID" max_length="40" name="color_id" type="integer"/>
+        <element display="true" label="Name" max_length="40" name="name" type="string"/>
+        <element label="RGB" max_length="40" name="rgb" type="string"/>
+    </element>
+</database>

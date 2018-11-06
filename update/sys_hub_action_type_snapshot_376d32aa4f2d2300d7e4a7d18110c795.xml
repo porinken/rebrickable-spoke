@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_snapshot">
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <annotation/>
+        <category display_value="Lego Sets">02d087d24fe12300d7e4a7d18110c7c7</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description>&lt;p&gt;Get details for a specific Set.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Input&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Set number&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Outputs&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Name&lt;/li&gt;
+&lt;li&gt;Year&lt;/li&gt;
+&lt;li&gt;Theme ID&lt;/li&gt;
+&lt;li&gt;Number of parts&lt;/li&gt;
+&lt;li&gt;Set image URL&lt;/li&gt;
+&lt;li&gt;Set URL&lt;/li&gt;
+&lt;/ul&gt;</description>
+        <internal_name>set_details</internal_name>
+        <label_cache>[{"name":"{{action.set_number}}","label":"action➛Set number","type":"action","ref":""},{"name":"{{action.set_variant}}","label":"action➛Set variant","type":"action","ref":""},{"name":"{{step[49094c7b-2680-441e-8757-862c97552d64].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""},{"name":"{{step[49094c7b-2680-441e-8757-862c97552d64].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":""},{"name":"{{step[49094c7b-2680-441e-8757-862c97552d64].error_code}}","label":"step➛REST step➛Error Code","type":"step","ref":""},{"name":"{{step[49094c7b-2680-441e-8757-862c97552d64].error_message}}","label":"step➛REST step➛Error Message","type":"step","ref":""},{"name":"{{step[5d2558ba-888d-42bf-9e37-432db0d4f1c5].s}}","label":"step➛Script step➛s","type":"step","ref":""},{"name":"{{step[5d2558ba-888d-42bf-9e37-432db0d4f1c5].se}}","label":"step➛Script step➛se","type":"step","ref":""},{"name":"{{step[5d2558ba-888d-42bf-9e37-432db0d4f1c5].set}}","label":"step➛Script step➛set","type":"step","ref":""},{"name":"{{step[5d2558ba-888d-42bf-9e37-432db0d4f1c5].set_}}","label":"step➛Script step➛set_","type":"step","ref":""},{"name":"{{step[5d2558ba-888d-42bf-9e37-432db0d4f1c5].set_n}}","label":"step➛Script step➛set_n","type":"step","ref":""},{"name":"{{step[5d2558ba-888d-42bf-9e37-432db0d4f1c5].set_nu}}","label":"step➛Script step➛set_nu","type":"step","ref":""},{"name":"{{step[5d2558ba-888d-42bf-9e37-432db0d4f1c5].set_num}}","label":"step➛Script step➛set_num","type":"step","ref":""},{"name":"{{step[5d2558ba-888d-42bf-9e37-432db0d4f1c5].set_numb}}","label":"step➛Script step➛set_numb","type":"step","ref":""},{"name":"{{step[5d2558ba-888d-42bf-9e37-432db0d4f1c5].set_numbe}}","label":"step➛Script step➛set_numbe","type":"step","ref":""},{"name":"{{step[5d2558ba-888d-42bf-9e37-432db0d4f1c5].set_number}}","label":"step➛Script step➛set_number","type":"step","ref":""},{"name":"{{step[5d2558ba-888d-42bf-9e37-432db0d4f1c5].n}}","label":"step➛Script step➛n","type":"step","ref":""},{"name":"{{step[5d2558ba-888d-42bf-9e37-432db0d4f1c5].}}","label":"step➛Script step➛","type":"step","ref":""},{"name":"{{step[5d2558ba-888d-42bf-9e37-432db0d4f1c5].set_na}}","label":"step➛Script step➛set_na","type":"step","ref":""},{"name":"{{step[5d2558ba-888d-42bf-9e37-432db0d4f1c5].set_nam}}","label":"step➛Script step➛set_nam","type":"step","ref":""},{"name":"{{step[5d2558ba-888d-42bf-9e37-432db0d4f1c5].set_name}}","label":"step➛Script step➛set_name","type":"step","ref":""},{"name":"{{step[5d2558ba-888d-42bf-9e37-432db0d4f1c5].y}}","label":"step➛Script step➛y","type":"step","ref":""},{"name":"{{step[5d2558ba-888d-42bf-9e37-432db0d4f1c5].ye}}","label":"step➛Script step➛ye","type":"step","ref":""},{"name":"{{step[5d2558ba-888d-42bf-9e37-432db0d4f1c5].yea}}","label":"step➛Script step➛yea","type":"step","ref":""},{"name":"{{step[5d2558ba-888d-42bf-9e37-432db0d4f1c5].year}}","label":"step➛Script step➛year","type":"step","ref":""},{"name":"{{step[5d2558ba-888d-42bf-9e37-432db0d4f1c5].t}}","label":"step➛Script step➛t","type":"step","ref":""},{"name":"{{step[5d2558ba-888d-42bf-9e37-432db0d4f1c5].th}}","label":"step➛Script step➛th","type":"step","ref":""},{"name":"{{step[5d2558ba-888d-42bf-9e37-432db0d4f1c5].the}}","label":"step➛Script step➛the","type":"step","ref":""},{"name":"{{step[5d2558ba-888d-42bf-9e37-432db0d4f1c5].them}}","label":"step➛Script step➛them","type":"step","ref":""},{"name":"{{step[5d2558ba-888d-42bf-9e37-432db0d4f1c5].theme}}","label":"step➛Script step➛theme","type":"step","ref":""},{"name":"{{step[5d2558ba-888d-42bf-9e37-432db0d4f1c5].theme_}}","label":"step➛Script step➛theme_","type":"step","ref":""},{"name":"{{step[5d2558ba-888d-42bf-9e37-432db0d4f1c5].theme_i}}","label":"step➛Script step➛theme_i","type":"step","ref":""},{"name":"{{step[5d2558ba-888d-42bf-9e37-432db0d4f1c5].theme_id}}","label":"step➛Script step➛theme_id","type":"step","ref":""},{"name":"{{step[5d2558ba-888d-42bf-9e37-432db0d4f1c5].nu}}","label":"step➛Script step➛nu","type":"step","ref":""},{"name":"{{step[5d2558ba-888d-42bf-9e37-432db0d4f1c5].num}}","label":"step➛Script step➛num","type":"step","ref":""},{"name":"{{step[5d2558ba-888d-42bf-9e37-432db0d4f1c5].num_}}","label":"step➛Script step➛num_","type":"step","ref":""},{"name":"{{step[5d2558ba-888d-42bf-9e37-432db0d4f1c5].num_p}}","label":"step➛Script step➛num_p","type":"step","ref":""},{"name":"{{step[5d2558ba-888d-42bf-9e37-432db0d4f1c5].num_pa}}","label":"step➛Script step➛num_pa","type":"step","ref":""},{"name":"{{step[5d2558ba-888d-42bf-9e37-432db0d4f1c5].num_par}}","label":"step➛Script step➛num_par","type":"step","ref":""},{"name":"{{step[5d2558ba-888d-42bf-9e37-432db0d4f1c5].num_part}}","label":"step➛Script step➛num_part","type":"step","ref":""},{"name":"{{step[5d2558ba-888d-42bf-9e37-432db0d4f1c5].num_parts}}","label":"step➛Script step➛num_parts","type":"step","ref":""},{"name":"{{step[5d2558ba-888d-42bf-9e37-432db0d4f1c5].set_i}}","label":"step➛Script step➛set_i","type":"step","ref":""},{"name":"{{step[5d2558ba-888d-42bf-9e37-432db0d4f1c5].set_im}}","label":"step➛Script step➛set_im","type":"step","ref":""},{"name":"{{step[5d2558ba-888d-42bf-9e37-432db0d4f1c5].set_img}}","label":"step➛Script step➛set_img","type":"step","ref":""},{"name":"{{step[5d2558ba-888d-42bf-9e37-432db0d4f1c5].set_img_}}","label":"step➛Script step➛set_img_","type":"step","ref":""},{"name":"{{step[5d2558ba-888d-42bf-9e37-432db0d4f1c5].set_img_u}}","label":"step➛Script step➛set_img_u","type":"step","ref":""},{"name":"{{step[5d2558ba-888d-42bf-9e37-432db0d4f1c5].set_img_ur}}","label":"step➛Script step➛set_img_ur","type":"step","ref":""},{"name":"{{step[5d2558ba-888d-42bf-9e37-432db0d4f1c5].set_img_url}}","label":"step➛Script step➛set_img_url","type":"step","ref":""},{"name":"{{step[5d2558ba-888d-42bf-9e37-432db0d4f1c5].set_u}}","label":"step➛Script step➛set_u","type":"step","ref":""},{"name":"{{step[5d2558ba-888d-42bf-9e37-432db0d4f1c5].set_ur}}","label":"step➛Script step➛set_ur","type":"step","ref":""},{"name":"{{step[5d2558ba-888d-42bf-9e37-432db0d4f1c5].set_url}}","label":"step➛Script step➛set_url","type":"step","ref":""}]</label_cache>
+        <master>true</master>
+        <name>Set Details</name>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="Set Details">a54287d64fa12300d7e4a7d18110c7c0</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-06 16:22:47</sys_created_on>
+        <sys_id>376d32aa4f2d2300d7e4a7d18110c795</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Set Details</sys_name>
+        <sys_package display_value="Rebrickable Spoke" source="x_265424_rebrickab">084856d64f612300d7e4a7d18110c742</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Rebrickable Spoke">084856d64f612300d7e4a7d18110c742</sys_scope>
+        <sys_update_name>sys_hub_action_type_snapshot_376d32aa4f2d2300d7e4a7d18110c795</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-06 16:22:50</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=376d32aa4f2d2300d7e4a7d18110c795"/>
+    <sys_variable_value action="delete_multiple" query="document_key=376d32aa4f2d2300d7e4a7d18110c795"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>376d32aa4f2d2300d7e4a7d18110c795</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-06 16:22:50</sys_created_on>
+        <sys_id>247d72aa4f2d2300d7e4a7d18110c756</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-06 16:22:50</sys_updated_on>
+        <value/>
+        <variable display_value="">907d72aa4f2d2300d7e4a7d18110c741</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>376d32aa4f2d2300d7e4a7d18110c795</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-06 16:22:50</sys_created_on>
+        <sys_id>e47d72aa4f2d2300d7e4a7d18110c756</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-06 16:22:50</sys_updated_on>
+        <value/>
+        <variable display_value="">d87d72aa4f2d2300d7e4a7d18110c73b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=376d32aa4f2d2300d7e4a7d18110c795"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>number_of_parts</field>
+        <id>376d32aa4f2d2300d7e4a7d18110c795</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-06 16:22:50</sys_created_on>
+        <sys_id>687d72aa4f2d2300d7e4a7d18110c755</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-06 16:22:50</sys_updated_on>
+        <table>var__m_sys_hub_action_output_376d32aa4f2d2300d7e4a7d18110c795</table>
+        <value>{{step[5d2558ba-888d-42bf-9e37-432db0d4f1c5].num_parts}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>set_image_url</field>
+        <id>376d32aa4f2d2300d7e4a7d18110c795</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-06 16:22:50</sys_created_on>
+        <sys_id>a07d72aa4f2d2300d7e4a7d18110c756</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-06 16:22:50</sys_updated_on>
+        <table>var__m_sys_hub_action_output_376d32aa4f2d2300d7e4a7d18110c795</table>
+        <value>{{step[5d2558ba-888d-42bf-9e37-432db0d4f1c5].set_img_url}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>set_name</field>
+        <id>376d32aa4f2d2300d7e4a7d18110c795</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-06 16:22:50</sys_created_on>
+        <sys_id>207d72aa4f2d2300d7e4a7d18110c755</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-06 16:22:50</sys_updated_on>
+        <table>var__m_sys_hub_action_output_376d32aa4f2d2300d7e4a7d18110c795</table>
+        <value>{{step[5d2558ba-888d-42bf-9e37-432db0d4f1c5].set_name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>set_number</field>
+        <id>376d32aa4f2d2300d7e4a7d18110c795</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-06 16:22:50</sys_created_on>
+        <sys_id>2c7d72aa4f2d2300d7e4a7d18110c755</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-06 16:22:50</sys_updated_on>
+        <table>var__m_sys_hub_action_output_376d32aa4f2d2300d7e4a7d18110c795</table>
+        <value>{{step[5d2558ba-888d-42bf-9e37-432db0d4f1c5].set_number}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>set_url</field>
+        <id>376d32aa4f2d2300d7e4a7d18110c795</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-06 16:22:50</sys_created_on>
+        <sys_id>a47d72aa4f2d2300d7e4a7d18110c755</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-06 16:22:50</sys_updated_on>
+        <table>var__m_sys_hub_action_output_376d32aa4f2d2300d7e4a7d18110c795</table>
+        <value>{{step[5d2558ba-888d-42bf-9e37-432db0d4f1c5].set_url}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>theme_id</field>
+        <id>376d32aa4f2d2300d7e4a7d18110c795</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-06 16:22:50</sys_created_on>
+        <sys_id>ec7d72aa4f2d2300d7e4a7d18110c755</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-06 16:22:50</sys_updated_on>
+        <table>var__m_sys_hub_action_output_376d32aa4f2d2300d7e4a7d18110c795</table>
+        <value>{{step[5d2558ba-888d-42bf-9e37-432db0d4f1c5].theme_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>year</field>
+        <id>376d32aa4f2d2300d7e4a7d18110c795</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-06 16:22:50</sys_created_on>
+        <sys_id>e07d72aa4f2d2300d7e4a7d18110c755</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-06 16:22:50</sys_updated_on>
+        <table>var__m_sys_hub_action_output_376d32aa4f2d2300d7e4a7d18110c795</table>
+        <value>{{step[5d2558ba-888d-42bf-9e37-432db0d4f1c5].year}}</value>
+    </sys_element_mapping>
+</record_update>

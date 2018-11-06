@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_step_instance">
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Set Details">a54287d64fa12300d7e4a7d18110c7c0</action>
+        <cid>5d2558ba-888d-42bf-9e37-432db0d4f1c5</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>2</order>
+        <outputs/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-06 03:39:07</sys_created_on>
+        <sys_id>99ae0ca64fa52300d7e4a7d18110c7ce</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Script step</sys_name>
+        <sys_package display_value="Rebrickable Spoke" source="x_265424_rebrickab">084856d64f612300d7e4a7d18110c742</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Rebrickable Spoke">084856d64f612300d7e4a7d18110c742</sys_scope>
+        <sys_update_name>sys_hub_step_instance_99ae0ca64fa52300d7e4a7d18110c7ce</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-06 03:39:09</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=99ae0ca64fa52300d7e4a7d18110c7ce"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>99ae0ca64fa52300d7e4a7d18110c7ce</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-06 03:39:09</sys_created_on>
+        <sys_id>a5ae4ca64fa52300d7e4a7d18110c70e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-06 03:39:09</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+var responseBody = JSON.parse(inputs.response);
+ if(inputs.status!=200){
+   throw "Error retrieving incident. Code: " + inputs.errorCode + " Message:" + inputs.errorMsg;
+ }
+ else {
+     outputs.set_number = responseBody.set_num;
+     outputs.set_name = responseBody.name;
+     outputs.year = responseBody.year; 
+     outputs.theme_id = responseBody.theme_id;
+     outputs.num_parts = responseBody.num_parts;
+     outputs.set_img_url = responseBody.set_img_url;
+     outputs.set_url = responseBody.set_url;
+ }
+})(inputs, outputs);
+
+</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>99ae0ca64fa52300d7e4a7d18110c7ce</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-06 03:39:09</sys_created_on>
+        <sys_id>edae4ca64fa52300d7e4a7d18110c70d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-06 03:39:09</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=99ae0ca64fa52300d7e4a7d18110c7ce"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>99ae0ca64fa52300d7e4a7d18110c7ce</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-06 03:39:09</sys_created_on>
+        <sys_id>a5ae4ca64fa52300d7e4a7d18110c70d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-06 03:39:09</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>errorCode</field>
+        <id>99ae0ca64fa52300d7e4a7d18110c7ce</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-06 03:39:09</sys_created_on>
+        <sys_id>a1ae4ca64fa52300d7e4a7d18110c70f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-06 03:39:09</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_99ae0ca64fa52300d7e4a7d18110c7ce</table>
+        <value>{{step[49094c7b-2680-441e-8757-862c97552d64].error_code}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>errorMsg</field>
+        <id>99ae0ca64fa52300d7e4a7d18110c7ce</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-06 03:39:09</sys_created_on>
+        <sys_id>29ae4ca64fa52300d7e4a7d18110c70f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-06 03:39:09</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_99ae0ca64fa52300d7e4a7d18110c7ce</table>
+        <value>{{step[49094c7b-2680-441e-8757-862c97552d64].error_message}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>response</field>
+        <id>99ae0ca64fa52300d7e4a7d18110c7ce</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-06 03:39:09</sys_created_on>
+        <sys_id>65ae4ca64fa52300d7e4a7d18110c70f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-06 03:39:09</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_99ae0ca64fa52300d7e4a7d18110c7ce</table>
+        <value>{{step[49094c7b-2680-441e-8757-862c97552d64].response_body}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>99ae0ca64fa52300d7e4a7d18110c7ce</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-06 03:39:09</sys_created_on>
+        <sys_id>6dae4ca64fa52300d7e4a7d18110c70d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-06 03:39:09</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>status</field>
+        <id>99ae0ca64fa52300d7e4a7d18110c7ce</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-06 03:39:09</sys_created_on>
+        <sys_id>e9ae4ca64fa52300d7e4a7d18110c70f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-06 03:39:09</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_99ae0ca64fa52300d7e4a7d18110c7ce</table>
+        <value>{{step[49094c7b-2680-441e-8757-862c97552d64].status_code}}</value>
+    </sys_element_mapping>
+</record_update>

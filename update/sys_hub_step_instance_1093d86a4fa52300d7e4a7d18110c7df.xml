@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_step_instance">
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Color List">a4bf80e64fa52300d7e4a7d18110c726</action>
+        <cid>05fbc1a9-3f38-4a4a-bdb6-1f51ec889f56</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>2</order>
+        <outputs/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-06 04:00:38</sys_created_on>
+        <sys_id>1093d86a4fa52300d7e4a7d18110c7df</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Script step</sys_name>
+        <sys_package display_value="Rebrickable Spoke" source="x_265424_rebrickab">084856d64f612300d7e4a7d18110c742</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Rebrickable Spoke">084856d64f612300d7e4a7d18110c742</sys_scope>
+        <sys_update_name>sys_hub_step_instance_1093d86a4fa52300d7e4a7d18110c7df</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-06 16:07:25</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=1093d86a4fa52300d7e4a7d18110c7df"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>1093d86a4fa52300d7e4a7d18110c7df</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-06 04:00:38</sys_created_on>
+        <sys_id>1093d86a4fa52300d7e4a7d18110c7fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-06 04:00:38</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>1093d86a4fa52300d7e4a7d18110c7df</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-06 04:00:38</sys_created_on>
+        <sys_id>d093d86a4fa52300d7e4a7d18110c7fa</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-06 16:07:26</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+var responseBody = JSON.parse(inputs.response);
+ if(inputs.status!=200){
+   throw "Error retrieving incident. Code: " + inputs.errorCode + " Message:" + inputs.errorMsg;
+ }
+ else {
+  outputs.colorCount = responseBody.count;
+   
+   var result = responseBody.results;
+	var newColorList = "";
+   
+   for ( i = 0; i &lt; result.length; i++){
+     // Check to see if Color already exists. If not, create a new record.
+     var colorTest = new GlideRecord('x_265424_rebrickab_lego_color');
+     var oldColor= colorTest.get('color_id',result[i].id);
+     
+     if (!oldColor) {
+       var newColor = new GlideRecord('x_265424_rebrickab_lego_color');
+		newColor.color_id = result[i].id;
+       newColor.name = result[i].name;
+       newColor.rgb = result[i].rgb;
+		newColor.insert();
+       //
+       if (newColorList == ""){
+        newColorList = newColor.getValue('sys_id');
+       } else {
+       newColorList = newColorList + "," + newColor.getValue('sys_id');
+       }
+     }
+     
+   }
+   //gs.info("newCatList is: " + newCatList);
+   outputs.newColors = newColorList;
+ }
+})(inputs, outputs);
+</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=1093d86a4fa52300d7e4a7d18110c7df"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>1093d86a4fa52300d7e4a7d18110c7df</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-06 04:00:38</sys_created_on>
+        <sys_id>d893d86a4fa52300d7e4a7d18110c7f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-06 04:00:38</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>errorCode</field>
+        <id>1093d86a4fa52300d7e4a7d18110c7df</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-06 04:09:06</sys_created_on>
+        <sys_id>d88510ea4fa52300d7e4a7d18110c796</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-06 04:09:06</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_1093d86a4fa52300d7e4a7d18110c7df</table>
+        <value>{{step[d0bf7576-6203-4020-904e-32de68b95301].error_code}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>errorMsg</field>
+        <id>1093d86a4fa52300d7e4a7d18110c7df</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-06 04:09:06</sys_created_on>
+        <sys_id>508510ea4fa52300d7e4a7d18110c797</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-06 04:09:06</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_1093d86a4fa52300d7e4a7d18110c7df</table>
+        <value>{{step[d0bf7576-6203-4020-904e-32de68b95301].error_message}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>response</field>
+        <id>1093d86a4fa52300d7e4a7d18110c7df</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-06 04:09:06</sys_created_on>
+        <sys_id>9c8510ea4fa52300d7e4a7d18110c796</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-06 04:09:06</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_1093d86a4fa52300d7e4a7d18110c7df</table>
+        <value>{{step[d0bf7576-6203-4020-904e-32de68b95301].response_body}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>1093d86a4fa52300d7e4a7d18110c7df</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-06 04:00:38</sys_created_on>
+        <sys_id>9c93d86a4fa52300d7e4a7d18110c7f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-06 04:00:38</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>status</field>
+        <id>1093d86a4fa52300d7e4a7d18110c7df</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-06 04:09:06</sys_created_on>
+        <sys_id>148510ea4fa52300d7e4a7d18110c797</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-06 04:09:06</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_1093d86a4fa52300d7e4a7d18110c7df</table>
+        <value>{{step[d0bf7576-6203-4020-904e-32de68b95301].status_code}}</value>
+    </sys_element_mapping>
+</record_update>

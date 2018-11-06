@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>false</active>
+        <annotation/>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Flow to test Rebrickable calls</description>
+        <internal_name>lego_test</internal_name>
+        <label_cache>[{"name":"455d72a0-0f9d-48bb-aad0-aae1feb2b52d.number_of_themes","label":"1➛Number of themes","reference_display":"Number of themes","type":"integer","base_type":"integer"},{"name":"29834b7f-d3d8-4bb7-881f-60fd0c9008f7.number_of_colors","label":"1➛Number of categories","reference_display":"Number of categories","type":"string","base_type":"string"},{"name":"52988010-10f2-4bfe-86d1-ab40160dafcd.number_of_colors","label":"1➛Number of colors","reference_display":"Number of colors","type":"integer","base_type":"integer"},{"name":"52988010-10f2-4bfe-86d1-ab40160dafcd.list_of_new_color_sys_ids","label":"1➛List of new color Sys IDs","reference_display":"List of new color Sys IDs","type":"data_array","base_type":"data_array"}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Lego Test</name>
+        <outputs/>
+        <remote_trigger_id/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>true</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-05 22:08:44</sys_created_on>
+        <sys_id>e503cbd64fa12300d7e4a7d18110c777</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Lego Test</sys_name>
+        <sys_package display_value="Rebrickable Spoke" source="x_265424_rebrickab">084856d64f612300d7e4a7d18110c742</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Rebrickable Spoke">084856d64f612300d7e4a7d18110c742</sys_scope>
+        <sys_update_name>sys_hub_flow_e503cbd64fa12300d7e4a7d18110c777</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-06 16:09:02</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=e503cbd64fa12300d7e4a7d18110c777"/>
+    <sys_variable_value action="delete_multiple" query="document_key=e503cbd64fa12300d7e4a7d18110c777"/>
+</record_update>
