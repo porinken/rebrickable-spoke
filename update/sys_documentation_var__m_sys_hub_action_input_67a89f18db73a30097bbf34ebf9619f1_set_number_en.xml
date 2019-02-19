@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="set_number" label="Set number" language="en" table="var__m_sys_hub_action_input_67a89f18db73a30097bbf34ebf9619f1">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>set_number</element>
+            <help/>
+            <hint>Lego set number</hint>
+            <label>Set number</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_67a89f18db73a30097bbf34ebf9619f1</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-02-19 14:56:46</sys_created_on>
+            <sys_id>afa89f18db73a30097bbf34ebf9619f6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Set number</sys_name>
+            <sys_package display_value="Rebrickable Spoke" source="x_265424_rebrickab">084856d64f612300d7e4a7d18110c742</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Rebrickable Spoke">084856d64f612300d7e4a7d18110c742</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_action_input_67a89f18db73a30097bbf34ebf9619f1_set_number_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-02-19 14:56:46</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

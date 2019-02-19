@@ -8,25 +8,25 @@
         <copied_from_name>Color List</copied_from_name>
         <description>Get a list of all Lego element categories and add them to the Lego Part Category table.</description>
         <internal_name>category_list</internal_name>
-        <label_cache>[{"name":"{{action.page_number}}","label":"action➛Page number","type":"action","ref":""},{"name":"{{action.page_size}}","label":"action➛Page size","type":"action","ref":""},{"name":"{{step[d0bf7576-6203-4020-904e-32de68b95301].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""},{"name":"{{step[d0bf7576-6203-4020-904e-32de68b95301].error_code}}","label":"step➛REST step➛Error Code","type":"step","ref":""},{"name":"{{step[d0bf7576-6203-4020-904e-32de68b95301].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":""},{"name":"{{step[d0bf7576-6203-4020-904e-32de68b95301].error_message}}","label":"step➛REST step➛Error Message","type":"step","ref":""},{"name":"{{step[05fbc1a9-3f38-4a4a-bdb6-1f51ec889f56].c}}","label":"step➛Script step➛c","type":"step","ref":""},{"name":"{{step[05fbc1a9-3f38-4a4a-bdb6-1f51ec889f56].categoryCount}}","label":"step➛Script step➛categoryCount","type":"step","ref":""},{"name":"{{step[05fbc1a9-3f38-4a4a-bdb6-1f51ec889f56].newCa}}","label":"step➛Script step➛newCa","type":"step","ref":""},{"name":"{{step[05fbc1a9-3f38-4a4a-bdb6-1f51ec889f56].newCat}}","label":"step➛Script step➛newCat","type":"step","ref":""},{"name":"{{step[05fbc1a9-3f38-4a4a-bdb6-1f51ec889f56].newCate}}","label":"step➛Script step➛newCate","type":"step","ref":""},{"name":"{{step[05fbc1a9-3f38-4a4a-bdb6-1f51ec889f56].newCateg}}","label":"step➛Script step➛newCateg","type":"step","ref":""},{"name":"{{step[05fbc1a9-3f38-4a4a-bdb6-1f51ec889f56].newCatego}}","label":"step➛Script step➛newCatego","type":"step","ref":""},{"name":"{{step[05fbc1a9-3f38-4a4a-bdb6-1f51ec889f56].newCategor}}","label":"step➛Script step➛newCategor","type":"step","ref":""},{"name":"{{step[05fbc1a9-3f38-4a4a-bdb6-1f51ec889f56].newCategori}}","label":"step➛Script step➛newCategori","type":"step","ref":""},{"name":"{{step[05fbc1a9-3f38-4a4a-bdb6-1f51ec889f56].newCategorie}}","label":"step➛Script step➛newCategorie","type":"step","ref":""},{"name":"{{step[05fbc1a9-3f38-4a4a-bdb6-1f51ec889f56].newCategories}}","label":"step➛Script step➛newCategories","type":"step","ref":""}]</label_cache>
+        <label_cache>[{"name":"{{action.page_number}}","label":"action➛Page number","type":"action","ref":""},{"name":"{{action.page_size}}","label":"action➛Page size","type":"action","ref":""},{"name":"{{step[05fbc1a9-3f38-4a4a-bdb6-1f51ec889f56].c}}","label":"step➛Script step➛c","type":"step","ref":""},{"name":"{{step[05fbc1a9-3f38-4a4a-bdb6-1f51ec889f56].categoryCount}}","label":"step➛Script step➛categoryCount","type":"step","ref":""},{"name":"{{step[05fbc1a9-3f38-4a4a-bdb6-1f51ec889f56].newCa}}","label":"step➛Script step➛newCa","type":"step","ref":""},{"name":"{{step[05fbc1a9-3f38-4a4a-bdb6-1f51ec889f56].newCat}}","label":"step➛Script step➛newCat","type":"step","ref":""},{"name":"{{step[05fbc1a9-3f38-4a4a-bdb6-1f51ec889f56].newCate}}","label":"step➛Script step➛newCate","type":"step","ref":""},{"name":"{{step[05fbc1a9-3f38-4a4a-bdb6-1f51ec889f56].newCateg}}","label":"step➛Script step➛newCateg","type":"step","ref":""},{"name":"{{step[05fbc1a9-3f38-4a4a-bdb6-1f51ec889f56].newCatego}}","label":"step➛Script step➛newCatego","type":"step","ref":""},{"name":"{{step[05fbc1a9-3f38-4a4a-bdb6-1f51ec889f56].newCategor}}","label":"step➛Script step➛newCategor","type":"step","ref":""},{"name":"{{step[05fbc1a9-3f38-4a4a-bdb6-1f51ec889f56].newCategori}}","label":"step➛Script step➛newCategori","type":"step","ref":""},{"name":"{{step[05fbc1a9-3f38-4a4a-bdb6-1f51ec889f56].newCategorie}}","label":"step➛Script step➛newCategorie","type":"step","ref":""},{"name":"{{step[05fbc1a9-3f38-4a4a-bdb6-1f51ec889f56].newCategories}}","label":"step➛Script step➛newCategories","type":"step","ref":""}]</label_cache>
         <latest_snapshot>f3d7b6a64f2d2300d7e4a7d18110c738</latest_snapshot>
         <master_snapshot>6127be664f2d2300d7e4a7d18110c728</master_snapshot>
         <name>Category List</name>
         <outputs/>
         <outputs/>
-        <state>published</state>
+        <state>draft</state>
         <sys_class_name>sys_hub_action_type_definition</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-11-06 15:27:05</sys_created_on>
         <sys_id>f3a0f6624f2d2300d7e4a7d18110c753</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name>Category List</sys_name>
         <sys_package display_value="Rebrickable Spoke" source="x_265424_rebrickab">084856d64f612300d7e4a7d18110c742</sys_package>
         <sys_policy/>
         <sys_scope display_value="Rebrickable Spoke">084856d64f612300d7e4a7d18110c742</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_f3a0f6624f2d2300d7e4a7d18110c753</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-11-06 15:58:32</sys_updated_on>
+        <sys_updated_on>2019-02-19 15:58:50</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>

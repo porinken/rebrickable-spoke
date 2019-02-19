@@ -15,14 +15,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-11-06 15:22:02</sys_created_on>
         <sys_id>398f2a224f2d2300d7e4a7d18110c797</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>REST step</sys_name>
         <sys_package display_value="Rebrickable Spoke" source="x_265424_rebrickab">084856d64f612300d7e4a7d18110c742</sys_package>
         <sys_policy/>
         <sys_scope display_value="Rebrickable Spoke">084856d64f612300d7e4a7d18110c742</sys_scope>
         <sys_update_name>sys_hub_step_instance_398f2a224f2d2300d7e4a7d18110c797</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-11-06 15:28:31</sys_updated_on>
+        <sys_updated_on>2019-02-19 14:15:31</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=398f2a224f2d2300d7e4a7d18110c797"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -38,6 +38,20 @@
         <sys_updated_on>2018-11-06 15:22:02</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
         <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>398f2a224f2d2300d7e4a7d18110c797</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-19 14:15:31</sys_created_on>
+        <sys_id>573f4b90db73a30097bbf34ebf9619fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-19 14:15:31</sys_updated_on>
+        <value>https://rebrickable.com/api/v3</value>
+        <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -84,15 +98,29 @@
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
         <document_key>398f2a224f2d2300d7e4a7d18110c797</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-19 14:15:31</sys_created_on>
+        <sys_id>db3f4b90db73a30097bbf34ebf9619fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-19 14:15:31</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="">91e207d03b50030057a4a2e334efc4a0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>398f2a224f2d2300d7e4a7d18110c797</document_key>
         <order>10</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-11-06 15:22:02</sys_created_on>
         <sys_id>f58f2a224f2d2300d7e4a7d18110c7a7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-11-06 15:22:02</sys_updated_on>
-        <value>483b56d64fa12300d7e4a7d18110c7c8</value>
+        <sys_updated_on>2019-02-19 14:15:31</sys_updated_on>
+        <value/>
         <variable display_value="">262882f03b23320057a4a2e334efc4f0</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=398f2a224f2d2300d7e4a7d18110c797"/>
@@ -109,6 +137,18 @@
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>base_url</field>
+        <id>398f2a224f2d2300d7e4a7d18110c797</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-19 14:15:31</sys_created_on>
+        <sys_id>5f3f4b90db73a30097bbf34ebf9619fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-19 14:15:31</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>capabilities</field>
         <id>398f2a224f2d2300d7e4a7d18110c797</id>
         <sys_created_by>admin</sys_created_by>
@@ -117,6 +157,18 @@
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-11-06 15:22:02</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection</field>
+        <id>398f2a224f2d2300d7e4a7d18110c797</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-19 14:15:31</sys_created_on>
+        <sys_id>d33f4b90db73a30097bbf34ebf9619fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-19 14:15:31</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
@@ -138,11 +190,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-11-06 15:28:31</sys_created_on>
         <sys_id>f8013e624f2d2300d7e4a7d18110c74c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-11-06 15:28:31</sys_updated_on>
+        <sys_updated_on>2019-02-19 14:15:31</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
-        <value>{"page":"{{action.page_number}}","page_size":"{{action.page_size}}"}</value>
+        <value>{"page":"{{action.page_number}}","key":"4fbcfbab55d659c69fb74e8c41f98922","page_size":"{{action.page_size}}"}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>resource_path</field>

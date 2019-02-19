@@ -16,7 +16,7 @@
         <number_ref/>
         <provider_class/>
         <read_access>true</read_access>
-        <super_class display_value="Asset" name="alm_asset">6dc47ba181931300aadba4a47c598eb2</super_class>
+        <super_class display_value="Asset" name="alm_asset">911fb8b365822300aadb05e0fb3edf8c</super_class>
         <sys_class_code/>
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_class_path/>

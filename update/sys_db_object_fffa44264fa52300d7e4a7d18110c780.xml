@@ -16,7 +16,7 @@
         <number_ref/>
         <provider_class/>
         <read_access>true</read_access>
-        <super_class display_value="Product Model" name="cmdb_model">34f2332981131300aadba4a47c598e4e</super_class>
+        <super_class display_value="Product Model" name="cmdb_model">ec3d303b65022300aadb05e0fb3edf1b</super_class>
         <sys_class_code/>
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_class_path/>
